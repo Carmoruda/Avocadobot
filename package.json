@@ -1,0 +1,23 @@
+{
+  "name": "twitch-chatbot",
+  "version": "1.0.0",
+  "description": "🤖 Twitch chatbot that will allow chat to run commands, etc",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carmoruda/twitch-chatbot.git"
+  },
+  "author": "Carmoruda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carmoruda/twitch-chatbot/issues"
+  },
+  "homepage": "https://github.com/Carmoruda/twitch-chatbot#readme",
+  "devDependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
