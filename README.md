@@ -6,7 +6,7 @@
 ![Top Language](https://img.shields.io/github/languages/top/carmoruda/jellybot)
 [![Total Downloads](https://img.shields.io/github/downloads/carmoruda/jellybot/total)](https://github.com/Carmoruda/jellybot/releases)
 [![Version](https://img.shields.io/github/release/carmoruda/jellybot)](https://github.com/Carmoruda/jellybot/releases)
-[![License](https://img.shields.io/github/license/carmoruda/jellybot)]()
+[![License](https://img.shields.io/github/license/carmoruda/jellybot)](https://github.com/Carmoruda/Jellybot/blob/main/LICENSE)
 ![Repo starts](https://img.shields.io/github/stars/carmoruda/jellybot?style=social)
 
 Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that can be used to provide simple commands to Twitch users.
