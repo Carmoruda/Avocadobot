@@ -47,6 +47,14 @@ You may create a bug report on the [issues page](https://github.com/Carmoruda/je
 
 You may create a feature request on the [issues page](https://github.com/carmoruda/jellybot/issues/new/choose)
 
+## Contributing
+
+See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+
+For quick fixes and more complex contributions, you can open an issue using the most appropiate [issue template](https://github.com/carmoruda/jellybot/issues/new/choose) to describe the changes you'd like to see.
+
+If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/carmoruda/jellybot/issues) for something to work on. When ready, check out [Getting Started with Contributing](/CONTRIBUTING.md) for detailed instructions.
+
 ## License
 
 This code (everything in this repository) is licensed under the GNU General Public License v3.0. With this meaning, you may use the code in this repository, modify it as you see fit, and distribute this code. However, if you were to release it, it must be under the same license, make it open source, and provide documentation of the changes. All versions must have copyright credit pointing back to this source.
