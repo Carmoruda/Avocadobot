@@ -19,21 +19,21 @@ Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that 
 
 3. Use the [token generator](https://twitchapps.com/tmi/) to generate an Auth token.
 
-4. In the `.env` file, replace `bot_name` with the name of the bot.
+4. Download the latests version of Jellybot from [GitHub](https://github.com/Carmoruda/jellybot/releases).
 
-5. In the `.env` file, replace `oauth_token` with the Auth token you generated in Step 3 (the token must include at the beginning the following: `oauth:` followed by the token).
+5. If you don't have it already installed, download the latest version of [Node.js](https://nodejs.org/en/download/current/) (v15.14.0 or newer is required.)
 
-6. Download the latests version of Jellybot from [GitHub](https://github.com/Carmoruda/jellybot/releases).
+6. In your terminal or command prompt, navigate to the folder where Jellybot is located.
 
-7. If you don't have it already installed, download the latest version of [Node.js](https://nodejs.org/en/download/current/) (v15.14.0 or newer is required.)
+7. Install [tmi.js](https://www.npmjs.com/package/tmi.js) with the following command: `npm install -D tmi.js`
 
-8. In your terminal or command prompt, navigate to the folder where Jellybot is located.
+8. Install [chalk](https://www.npmjs.com/package/chalk) with the following command: `npm install -D chalk`
 
-9. Install [tmi.js](https://www.npmjs.com/package/tmi.js) with the following command: `npm install -D tmi.js`
+9. Install [dotenv](https://www.npmjs.com/package/dotenv) with the following command: `npm install -D dotenv`
 
-10. Install [chalk](https://www.npmjs.com/package/chalk) with the following command: `npm install -D chalk`
+10. In the `.env` file, replace `bot_name` with the name of the bot.
 
-11. Install [dotenv](https://www.npmjs.com/package/dotenv) with the following command: `npm install -D dotenv`
+11. In the `.env` file, replace `oauth_token` with the Auth token you generated in Step 3 (the token must include at the beginning the following: `oauth:` followed by the token).
 
 12. In the `index.js` file, replace `["channel_name"]` with the name of the channel you want the bot to log messages from.
 
