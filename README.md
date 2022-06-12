@@ -15,9 +15,9 @@ Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that 
 
 1. Create a [Twitch](www.twitch.tv) account for the bot.
 
-2. Create an application with the bot account using [Twitch dev console](https://dev.twitch.tv/login) (2FA is needed for this). Set the URL to "https://twitchtokengenerator.com".
+2. Create an application with the bot account using [Twitch dev console](https://dev.twitch.tv/login) (2FA is needed for this). Set the URL to "https://twitchapps.com/tmi/".
 
-3. Use the [token generator](https://twitchtokengenerator.com) to generate an Auth token.
+3. Use the [token generator](https://twitchapps.com/tmi/) to generate an Auth token.
 
 4. Download the latests version of Jellybot from [GitHub](https://github.com/Carmoruda/jellybot/releases).
 
@@ -29,9 +29,11 @@ Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that 
 
 8. Install [chalk](https://www.npmjs.com/package/chalk) with the following command: `npm install -D chalk`
 
-9. In the `index.js` file, replace `["channel_name"]` with the name of the channel you want the bot to log messages from.
+9. Install [dotenv](https://www.npmjs.com/package/dotenv) with the following command: `npm install -D dotenv`
 
-10. To run the bot, use the following command: `node index.js`
+10. In the `index.js` file, replace `["channel_name"]` with the name of the channel you want the bot to log messages from.
+
+11. To run the bot, use the following command: `node index.js`
 
 ## FAQ?
 
