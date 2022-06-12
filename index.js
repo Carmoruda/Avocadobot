@@ -22,6 +22,13 @@ client.on("message", (channel, tags, message, self) => {
   if (isAction) return;
 
   const isCommand = message.startsWith("!"); // Default prefix "!"
+  if (isCommand) {
+    const command = message.split(" ")[0].toLowerCase();
+    if (command == "!test") {
+      client.say(channel, "This is a test");
+    }
+    return
+  }
 
   const username = tags.username;
   const displayName = tags["display-name"];
