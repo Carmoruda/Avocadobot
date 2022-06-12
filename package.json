@@ -27,6 +27,7 @@
   "homepage": "https://github.com/Carmoruda/twitch-chatbot#readme",
   "devDependencies": {
     "chalk": "^5.0.1",
+    "dotenv": "^16.0.1",
     "tmi.js": "^1.8.5"
   }
 }
