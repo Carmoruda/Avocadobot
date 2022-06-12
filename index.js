@@ -1,5 +1,8 @@
 import tmi from "tmi.js";
 import chalk from "chalk";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const client = new tmi.Client({
   connection: { reconnect: true },
@@ -17,6 +20,8 @@ client.on("message", (channel, tags, message, self) => {
 
   const isAction = tags["message-type"] == "action";
   if (isAction) return;
+
+  const isCommand = message.startsWith("!"); // Default prefix "!"
 
   const username = tags.username;
   const displayName = tags["display-name"];
@@ -36,5 +41,5 @@ client.on("message", (channel, tags, message, self) => {
     (isMod ? "⚔️" : "");
 
   // "Badge Username: Message"
-  console.log(`${badges} ${nick}: ${message}`);
+  console.log(`${badges} ${nick}: ${message} => ¿Es un comando? ${isCommand}`);
 });
