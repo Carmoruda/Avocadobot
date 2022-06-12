@@ -35,6 +35,6 @@ client.on("message", (channel, tags, message, self) => {
     (isSub ? "💾" : "") +
     (isMod ? "⚔️" : "");
 
-  // "Username: Message"
-  console.log(`${badges} ${nick}: ${message} ${type}`);
+  // "Badge Username: Message"
+  console.log(`${badges} ${nick}: ${message}`);
 });
