@@ -44,7 +44,11 @@ client.on("message", (channel, tags, message, self) => {
     if (command == "!test") {
       client.say(channel, "This is a test answer");
     }
-    return
+    else if (command == "!dice") {
+      console.log("Dice petition received");
+      const number = Math.floor(Math.random() * 6) + 1;
+      client.say(channel, `${displayName} the number ${number} has been rolled `);
+    }
   }
 
   // "Badge Username: Message"
