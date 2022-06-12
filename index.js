@@ -4,6 +4,10 @@ import chalk from "chalk";
 const client = new tmi.Client({
   connection: { reconnect: true },
   channels: ["channel_name"], // Replace with your channel name
+  identity: {
+    username: process.env.TWITCH_BOT_USERNAME,
+    password: process.env.TWITCH_OAUTH_TOKEN // https://twitchapps.com/tmi/
+  },
 });
 
 client.connect();
