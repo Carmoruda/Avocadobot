@@ -49,8 +49,19 @@ client.on("message", (channel, tags, message, self) => {
       const number = Math.floor(Math.random() * 6) + 1;
       client.say(channel, `${displayName} the number ${number} has been rolled `);
     }
+    else if (command == "!magic") {
+      const number = Math.floor(Math.random() * 3);
+      const position = message.indexOf(" ") + 1;
+      const question = message.substring(position);
+      const answers = [
+        "✔️ of course",
+        "❌ no way",
+        "❔ maybe, who know..."
+      ];
+      client.say(channel, `${displayName}, the answer to "${question}" is ${answers[number]}`);
+    }
   }
 
   // "Badge Username: Message"
-  console.log(`${badges} ${nick}: ${message} => ¿Es un comando? ${isCommand}`);
+  console.log(`${badges} ${nick}: ${message} => ¿Is it a command? ${isCommand}`);
 });
