@@ -16,20 +16,6 @@ const client = new tmi.Client({
 client.connect();
 
 client.on("message", (channel, tags, message, self) => {
-  if (self) return;
-
-  const isAction = tags["message-type"] == "action";
-  if (isAction) return;
-
-  const isCommand = message.startsWith("!"); // Default prefix "!"
-  if (isCommand) {
-    const command = message.split(" ")[0].toLowerCase();
-    if (command == "!test") {
-      client.say(channel, "This is a test");
-    }
-    return
-  }
-
   const username = tags.username;
   const displayName = tags["display-name"];
   const color = tags?.color ?? "#ffffff";
@@ -46,6 +32,20 @@ client.on("message", (channel, tags, message, self) => {
     (isVip ? "💎" : "") +
     (isSub ? "💾" : "") +
     (isMod ? "⚔️" : "");
+
+  if (self) return;
+
+  const isAction = tags["message-type"] == "action";
+  if (isAction) return;
+
+  const isCommand = message.startsWith("!"); // Default prefix "!"
+  if (isCommand) {
+    const command = message.split(" ")[0].toLowerCase();
+    if (command == "!test") {
+      client.say(channel, "This is a test answer");
+    }
+    return
+  }
 
   // "Badge Username: Message"
   console.log(`${badges} ${nick}: ${message} => ¿Es un comando? ${isCommand}`);
