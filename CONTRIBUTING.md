@@ -58,38 +58,39 @@ Click **Make a contribution** at the bottom of any docs page to make small chang
 Commit the changes once you are happy with them. See [Atom's contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages) to know how to use emoji for commit messages.
 
 #### Suggested emojis
-| Text | Emoji | GFM shortcode* | Windows 10 picker name | Description |
-|:--:|:-----:|:--------- |:-------------- |:-------------- |
-| `🎉` | :tada: | `:tada:` | `party popper` | initial commit |
-| `✨` | :sparkles: | `:sparkles:` | `sparkles` | when introducing new features |
-| `🎨` | :art: | `:art:` | `artist palette` | when improving the format/structure of the code |
-| `💄` | :lipstick: | `:lipstick:` | `lipstick` | when improving UI/cosmetic | 
-| `📦` | :package: | `:package:` | `package` | when refactoring or improving code |
-| `🐎` | :racehorse: | `:racehorse:` | `horse` | when improving performance |
-| `🔒` | :lock: | `:lock:` | `locked` | when dealing with security |
-| `🔧` | :wrench: | `:wrench:` | `wrench` | when updating configs |
-| `♿` | :wheelchair: | `:wheelchair:` | `wheelchair symbol` |  when improving accessibility |
-| `🚀` | :rocket: | `:rocket:` | `rocket` | when improving dev tools (anything related to deyployments/devops) |
-| `` | :pencil: | `:pencil:` | `pencil` | when writing docs (e.g. README, code comments) |
-| `📰` | :newspaper: | `:newspaper:` | `newspaper` | when creating a new file | 
-| `💎` | :gem: | `:gem:` | `gem stone` | new release |
-| `🐛` | :bug: | `:bug:` | `bug` | when fixing a bug |
-| `💥` | :boom: | `:boom:` | `collision` | when fixing a crash |
-| `🚱` | :non-potable_water: | `:non-potable_water:` | `non-potable water` | when fixing a memory leak |
-| `🔥` | :fire: | `:fire:` | `fire` | when removing code or files |
-| `✅` | :white_check_mark: | `:white_check_mark:` | `check mark button` | when adding new tests |
-| `💚` | :green_heart: | `:green_heart:` | `green heart` | when fixing the CI build |
-| `👕` | :shirt: | `:shirt:` | `t-shirt` | when fixing linter warnings |
-| `📡` | :satellite: | `:satellite:` | `satellite antenna` | when adding instrumentation or metrics |
-| `🔊` | :loud_sound: | `:loud_sound:` | `speaker high volume` | when adding logging |
-| `🔇` | :mute: | `:mute:` | `muted speaker` | when removing logging |
-| `⬆` | :arrow_up: | `:arrow_up:` | `up arrow` | when upgrading dependencies |
-| `⬇` | :arrow_down: | `:arrow_down:` | `down arrow` | when downgrading dependencies |
-| `⚡` | :zap: | `:zap:` | `high voltage` | when making a backwards-incompatible change** |
-| `🚧` | :construction: | `:construction:` | `construction` | when the change is a work in progress (do not merge)** |
 
-* GFM shortcodes are recognized by any software that uses GitHub Flavored Markdown.
-** These emoji are often combined with another primary emoji.
+| Text |        Emoji        | GFM shortcode\*       | Windows 10 picker name | Description                                                        |
+| :--: | :-----------------: | :-------------------- | :--------------------- | :----------------------------------------------------------------- |
+| `🎉` |       :tada:        | `:tada:`              | `party popper`         | initial commit                                                     |
+| `✨` |     :sparkles:      | `:sparkles:`          | `sparkles`             | when introducing new features                                      |
+| `🎨` |        :art:        | `:art:`               | `artist palette`       | when improving the format/structure of the code                    |
+| `💄` |     :lipstick:      | `:lipstick:`          | `lipstick`             | when improving UI/cosmetic                                         |
+| `📦` |      :package:      | `:package:`           | `package`              | when refactoring or improving code                                 |
+| `🐎` |     :racehorse:     | `:racehorse:`         | `horse`                | when improving performance                                         |
+| `🔒` |       :lock:        | `:lock:`              | `locked`               | when dealing with security                                         |
+| `🔧` |      :wrench:       | `:wrench:`            | `wrench`               | when updating configs                                              |
+| `♿` |    :wheelchair:     | `:wheelchair:`        | `wheelchair symbol`    | when improving accessibility                                       |
+| `🚀` |      :rocket:       | `:rocket:`            | `rocket`               | when improving dev tools (anything related to deyployments/devops) |
+| `📝` |      :pencil:       | `:pencil:`            | `pencil`               | when writing docs (e.g. README, code comments)                     |
+| `📰` |     :newspaper:     | `:newspaper:`         | `newspaper`            | when creating a new file                                           |
+| `💎` |        :gem:        | `:gem:`               | `gem stone`            | new release                                                        |
+| `🐛` |        :bug:        | `:bug:`               | `bug`                  | when fixing a bug                                                  |
+| `💥` |       :boom:        | `:boom:`              | `collision`            | when fixing a crash                                                |
+| `🚱` | :non-potable_water: | `:non-potable_water:` | `non-potable water`    | when fixing a memory leak                                          |
+| `🔥` |       :fire:        | `:fire:`              | `fire`                 | when removing code or files                                        |
+| `✅` | :white_check_mark:  | `:white_check_mark:`  | `check mark button`    | when adding new tests                                              |
+| `💚` |    :green_heart:    | `:green_heart:`       | `green heart`          | when fixing the CI build                                           |
+| `👕` |       :shirt:       | `:shirt:`             | `t-shirt`              | when fixing linter warnings                                        |
+| `📡` |     :satellite:     | `:satellite:`         | `satellite antenna`    | when adding instrumentation or metrics                             |
+| `🔊` |    :loud_sound:     | `:loud_sound:`        | `speaker high volume`  | when adding logging                                                |
+| `🔇` |       :mute:        | `:mute:`              | `muted speaker`        | when removing logging                                              |
+| `⬆`  |     :arrow_up:      | `:arrow_up:`          | `up arrow`             | when upgrading dependencies                                        |
+| `⬇`  |    :arrow_down:     | `:arrow_down:`        | `down arrow`           | when downgrading dependencies                                      |
+| `⚡` |        :zap:        | `:zap:`               | `high voltage`         | when making a backwards-incompatible change\*\*                    |
+| `🚧` |   :construction:    | `:construction:`      | `construction`         | when the change is a work in progress (do not merge)\*\*           |
+
+- GFM shortcodes are recognized by any software that uses GitHub Flavored Markdown.
+  \*\* These emoji are often combined with another primary emoji.
 
 ### Pull Request
 

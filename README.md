@@ -1,15 +1,15 @@
-# Jellybot
+# Avocadobot
 
-![Build Status](https://img.shields.io/github/checks-status/carmoruda/jellybot/main)
-[![BCH compliance](https://bettercodehub.com/edge/badge/Carmoruda/Jellybot?branch=main)](https://bettercodehub.com/)
-![Languages](https://img.shields.io/github/languages/count/carmoruda/jellybot)
-![Top Language](https://img.shields.io/github/languages/top/carmoruda/jellybot)
-[![Total Downloads](https://img.shields.io/github/downloads/carmoruda/jellybot/total)](https://github.com/Carmoruda/jellybot/releases)
-[![Version](https://img.shields.io/github/release/carmoruda/jellybot)](https://github.com/Carmoruda/jellybot/releases)
-[![License](https://img.shields.io/github/license/carmoruda/jellybot)](https://github.com/Carmoruda/Jellybot/blob/main/LICENSE)
-![Repo starts](https://img.shields.io/github/stars/carmoruda/jellybot?style=social)
+![Build Status](https://img.shields.io/github/checks-status/carmoruda/avocadobot/main)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Carmoruda/Avocadobot?branch=main)](https://bettercodehub.com/)
+![Languages](https://img.shields.io/github/languages/count/carmoruda/avocadobot)
+![Top Language](https://img.shields.io/github/languages/top/carmoruda/avocadobot)
+[![Total Downloads](https://img.shields.io/github/downloads/carmoruda/avocadobot/total)](https://github.com/Carmoruda/avocadobot/releases)
+[![Version](https://img.shields.io/github/release/carmoruda/avocadobot)](https://github.com/Carmoruda/avocadobot/releases)
+[![License](https://img.shields.io/github/license/carmoruda/avocadobot)](https://github.com/Carmoruda/Avocadobot/blob/main/LICENSE)
+![Repo starts](https://img.shields.io/github/stars/carmoruda/avocadobot?style=social)
 
-Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that can be used to provide simple commands to Twitch users.
+Avocadobot is a Twitch chatbot powered by Javascript. It is a simple chatbot that can be used to provide simple commands to Twitch users.
 
 ## Run the bot
 
@@ -19,11 +19,11 @@ Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that 
 
 3. Use the [token generator](https://twitchapps.com/tmi/) to generate an Auth token.
 
-4. Download the latests version of Jellybot from [GitHub](https://github.com/Carmoruda/jellybot/releases).
+4. Download the latests version of Avocadobot from [GitHub](https://github.com/Carmoruda/jellybot/releases).
 
 5. If you don't have it already installed, download the latest version of [Node.js](https://nodejs.org/en/download/current/) (v15.14.0 or newer is required.)
 
-6. In your terminal or command prompt, navigate to the folder where Jellybot is located.
+6. In your terminal or command prompt, navigate to the folder where Avocadobot is located.
 
 7. Install [tmi.js](https://www.npmjs.com/package/tmi.js) with the following command: `npm install -D tmi.js`
 
@@ -41,7 +41,7 @@ Jellybot is a Twitch chatbot powered by Javascript. It is a simple chatbot that 
 
 ## FAQ?
 
-### How do I install / get Jellybot?
+### How do I install / get Avocadobot?
 
 Head on over to the [release page](https://github.com/Carmoruda/jellybot/releases) and download the latest version.
 
