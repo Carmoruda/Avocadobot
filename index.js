@@ -15,6 +15,10 @@ const client = new tmi.Client({
 
 client.connect();
 
+// Events
+client.on("disconnected", (reason) => { onDisconnectedHandler(reason) }); // TODO Disconnected Handler function
+client.on("connected", (reason) => { onConnectedHandler(reason) }); // TODO Connected Handler function
+
 client.on("message", (channel, tags, message, self) => {
   const username = tags.username;
   const displayName = tags["display-name"];
@@ -41,15 +45,17 @@ client.on("message", (channel, tags, message, self) => {
   const isCommand = message.startsWith("!"); // Default prefix "!"
   if (isCommand) {
     const command = message.split(" ")[0].toLowerCase();
-    if (command == "!test") {
+    if (command === "!test") {
       client.say(channel, "This is a test answer");
     }
-    else if (command == "!dice") {
+
+    else if (command === "!dice") {
       console.log("Dice petition received");
       const number = Math.floor(Math.random() * 6) + 1;
       client.say(channel, `${displayName} the number ${number} has been rolled `);
     }
-    else if (command == "!magic") {
+
+    else if (command === "!magic") {
       const number = Math.floor(Math.random() * 3);
       const position = message.indexOf(" ") + 1;
       const question = message.substring(position);
@@ -65,3 +71,12 @@ client.on("message", (channel, tags, message, self) => {
   // "Badge Username: Message"
   console.log(`${badges} ${nick}: ${message} => ¿Is it a command? ${isCommand}`);
 });
+
+// Events handlers
+function onDisconnectedHandler(reason) {
+  console.log(`Disconnected: ${reason}`);
+}
+
+function onConnectedHandler(reason) {
+  console.log(`Connected: ${reason}`);
+}
